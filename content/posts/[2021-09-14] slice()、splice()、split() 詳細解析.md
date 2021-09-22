@@ -1,6 +1,6 @@
 ---
 title: "[2021-09-14] slice()、splice()、split() 詳細解析"
-date: 2021-09-14
+date: 2020-09-14T20:28:23+08:00
 categories:
 - javascript
 tags:
