@@ -12,7 +12,7 @@
 # For developpers, if you modify this theme, put your images in `source/images` folder and
 # use grunt task `build` to synchronize assets
 
-baseURL = "https://elvis1056.github.io/"
+baseURL = "elvis1056.github.io/"
 languageCode = "zh-tw"
 defaultContentLanguage = "zh-tw"
 title = "elvis1056 部落格 - 程式治療"
@@ -24,7 +24,8 @@ paginate = 7
 canonifyurls = true
 # 設為 true 讓全站資源網址都套用 baseURL
 [permalinks]
-  posts = "/:year/:month/:slug/"
+  post = "/:year/:month/:slug/"
+  page = "/:slug/"
 # 提供自訂每篇文章的網址，若有自訂 slug 的時候，該篇文章會使用你定義的文字作為網址
 
 [taxonomies]
@@ -145,6 +146,7 @@ canonifyurls = true
   # Months (not work with short month like "jan", "feb", etc) are translated if translation exists on i18n folders
   # Default format is: January 2, 2006
   #  dateFormat = "2 January 2006"
+  dateFormat = "2006-01-02 15:04:05 UTC+8"
 
   # ---------------------------
   # Posts related configuration
